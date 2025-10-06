@@ -1,0 +1,19 @@
+{
+  "name": "pix-do-milhao",
+  "version": "1.0.0",
+  "description": "Pix do Milhão - Ebooks que mudam vidas",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000",
+    "build": "npm run copy-files",
+    "copy-files": "mkdir -p dist && cp -r *.html *.css *.js images dist/ 2>/dev/null || (copy *.html dist\\ & copy *.css dist\\ & copy *.js dist\\ & xcopy images dist\\images\\ /E /I)",
+    "preview": "npx http-server dist -p 8080",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["lottery", "ebooks", "pix", "brasil"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

